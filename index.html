@@ -2,26 +2,66 @@
 <html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>שליחת מייל לרקטור</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h2 {
+      font-size: 1.5em;
+      text-align: center;
+    }
+    a.button {
+      display: block;
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      padding: 14px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 300px;
+      border-radius: 8px;
+      font-size: 1.1em;
+      text-decoration: none;
+    }
+    textarea {
+      width: 100%;
+      font-size: 1em;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      height: 200px;
+      direction: rtl;
+      margin-top: 10px;
+    }
+    p, h3 {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 20px;">
+<body>
 
   <h2>שליחת מייל לרקטור</h2>
 
-  <p>לחצו כאן כדי לפתוח מייל ב-Gmail עם כתובת, נושא ותוכן מוכנים:</p>
+  <p>לחצו על הכפתור כדי לפתוח מייל מוכן ב־Gmail:</p>
 
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Rector@tauex.tau.ac.il&su=בקשה לביטול הלימודים מרחוק ב15.6&body=פרופסור שטייף שלום רב,%0A%0Aבשל המצב הביטחוני המתמשך והמתוח, אנו מבקשים לשקול את ביטול הלימודים המקוונים ביום ראשון הקרוב. אזעקות תכופות, הפרעות שינה וחוסר ודאות מקשים על הסטודנטים והמרצים לתפקד. נשמח לגמישות והתחשבות עד לשוב השגרה.%0A%0Aתודה מראש."
-     target="_blank"
-     style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-size: 18px;">
+  <a class="button" target="_blank"
+     href="https://mail.google.com/mail/?view=cm&fs=1&to=Rector@tauex.tau.ac.il&su=בקשה לביטול הלימודים מרחוק ב15.6&body=פרופסור שטייף שלום רב,%0A%0Aבשל המצב הביטחוני המתמשך והמתוח, אנו, הסטודנטים באוניברסיטת תל אביב, מבקשים לשקול את ביטול הלימודים המקוונים. אזעקות תכופות, הפרעות שינה וחוסר ודאות מקשים על הסטודנטים והמרצים לתפקד. המשך הלימודים יביא ליצירת פערים רגע לפני תקופת המבחנים. נשמח לגמישות והתחשבות עד לשוב השגרה.%0A%0Aתודה מראש.">
     פתחו מייל ב‑Gmail
   </a>
 
-  <h3 style="margin-top: 40px;">העתקה ידנית (למקרה שמשהו לא עובד):</h3>
-
-  <textarea style="width: 100%; height: 200px; font-size: 16px; padding: 10px; direction: rtl;">
+  <h3>לא עובד? העתיקו והדביקו את ההודעה:</h3>
+  <textarea readonly>
 פרופסור שטייף שלום רב,
 
-בשל המצב הביטחוני המתמשך והמתוח, אנו מבקשים לשקול את ביטול הלימודים המקוונים ביום ראשון הקרוב. אזעקות תכופות, הפרעות שינה וחוסר ודאות מקשים על הסטודנטים והמרצים לתפקד. נשמח לגמישות והתחשבות עד לשוב השגרה.
+בשל המצב הביטחוני המתמשך והמתוח, אנו, הסטודנטים באוניברסיטת תל אביב, מבקשים לשקול את ביטול הלימודים המקוונים. אזעקות תכופות, הפרעות שינה וחוסר ודאות מקשים על הסטודנטים והמרצים לתפקד. המשך הלימודים יביא ליצירת פערים רגע לפני תקופת המבחנים. נשמח לגמישות והתחשבות עד לשוב השגרה.
 
 תודה מראש.
   </textarea>
